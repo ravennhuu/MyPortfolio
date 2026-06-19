@@ -13,8 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alamo | Frontend Architect & Designer",
-  description: "Bento grid portfolio of Alamo, Frontend Architect. Designing hyper-minimalist, high-performance web systems.",
+  title: "Avryl Raven Alamo - Full Stack Mobile and Web Developer"
 };
 
 export default function RootLayout({

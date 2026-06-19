@@ -22,7 +22,7 @@ export const TechStackCell = () => {
 
         {/* ── CATEGORY ROW 1 ── */}
         <div className="flex flex-col py-3 border-b border-neutral-100 dark:border-neutral-900 space-y-2.5">
-          <h3 className="text-xs font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
+          <h3 className="text-sm font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
             Category 1 {/* TODO: e.g. "Core", "Frontend" */}
           </h3>
           <div className="flex flex-wrap gap-1.5">
@@ -35,7 +35,7 @@ export const TechStackCell = () => {
 
         {/* ── CATEGORY ROW 2 ── */}
         <div className="flex flex-col py-3 border-b border-neutral-100 dark:border-neutral-900 space-y-2.5">
-          <h3 className="text-xs font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
+          <h3 className="text-sm font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
             Category 2 {/* TODO: e.g. "Engineering", "Backend" */}
           </h3>
           <div className="flex flex-wrap gap-1.5">
@@ -48,7 +48,7 @@ export const TechStackCell = () => {
 
         {/* ── CATEGORY ROW 3 ── */}
         <div className="flex flex-col py-3 space-y-2.5">
-          <h3 className="text-xs font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
+          <h3 className="text-sm font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
             Category 3 {/* TODO: e.g. "Architecture", "Tools" */}
           </h3>
           <div className="flex flex-wrap gap-1.5">
