@@ -8,11 +8,11 @@ import TimelineCell from "@/components/cells/TimelineCell";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col justify-between p-4 sm:p-6 md:p-8 lg:p-10 max-w-5xl mx-auto w-full">
+    <div className="min-h-screen flex flex-col justify-between px-3 py-4 sm:p-6 md:p-8 lg:p-10 max-w-5xl mx-auto w-full">
 
       {/* Responsive Bento Grid Layout */}
       <main className="flex-grow">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-4 auto-rows-min w-full">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-3 md:gap-4 auto-rows-min w-full">
 
           {/* Header Row: Full width */}
           <div className="col-span-1 md:col-span-12">

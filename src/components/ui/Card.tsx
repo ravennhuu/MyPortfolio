@@ -16,7 +16,7 @@ export const Card = React.forwardRef<HTMLDivElement, CardProps>(
         className={`
           bg-white dark:bg-neutral-950 
           border border-neutral-150 dark:border-neutral-900 
-          rounded-2xl p-4 sm:p-6 
+          rounded-2xl p-3.5 sm:p-6 
           flex flex-col 
           relative overflow-hidden
           ${colSpan} ${rowSpan}

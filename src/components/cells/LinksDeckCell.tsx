@@ -3,12 +3,14 @@ import Card from "../ui/Card";
 
 export const LinksDeckCell = () => {
   return (
-    <Card colSpan="w-full" className="flex flex-col justify-between">
+    <Card colSpan="w-full" className="flex flex-col h-full">
       <div className="flex items-center justify-between">
         <span className="text-xs font-mono uppercase tracking-widest text-neutral-400 dark:text-neutral-500">
           Connect
         </span>
       </div>
+
+      <div className="flex-1 flex items-center">
 
       {/* ── SOCIAL LINKS ─────────────────────────────────────────
           Each <a> block below is one social link tile.
@@ -18,7 +20,7 @@ export const LinksDeckCell = () => {
           - Duplicate the <a> block to add more links.
           - The grid is 2-column — pairs fill each row naturally.
       ─────────────────────────────────────────────────────── */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-2 gap-2 mt-4">
+      <div className="grid grid-cols-4 gap-2">
 
         {/* ── LINK 1: GitHub ── */}
         {/* TODO: replace href below with your GitHub URL */}
@@ -82,6 +84,7 @@ export const LinksDeckCell = () => {
           </span>
         </a>
 
+      </div>
       </div>
     </Card>
   );

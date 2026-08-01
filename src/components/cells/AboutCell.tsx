@@ -3,7 +3,7 @@ import Card from "../ui/Card";
 
 export const AboutCell = () => {
   return (
-    <Card colSpan="w-full" className="flex flex-col justify-between">
+    <Card colSpan="w-full" className="flex flex-col justify-between h-full">
       <div>
         <span className="text-xs font-mono uppercase tracking-widest text-neutral-400 dark:text-neutral-500">
           About

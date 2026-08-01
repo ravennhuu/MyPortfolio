@@ -12,7 +12,7 @@ export const TimelineCell = () => {
 
       <div className="relative ml-0.5 sm:ml-1 mt-4 sm:mt-6 flex flex-col flex-grow">
 
-        <div className="relative flex gap-3 sm:gap-4">
+        <div className="relative flex gap-2 sm:gap-4">
           <div className="relative flex flex-col items-center w-3 flex-shrink-0">
             <div className="w-2.5 h-2.5 rounded-full border-2 border-white dark:border-neutral-950 bg-neutral-900 dark:bg-neutral-100 z-10 mt-1" />
 
@@ -22,7 +22,7 @@ export const TimelineCell = () => {
             <div className="text-[10px] font-mono text-neutral-400 dark:text-neutral-500 font-semibold uppercase tracking-wider">
               2026 March — 2026 June
             </div>
-            <h3 className="text-xs sm:text-sm font-semibold text-neutral-900 dark:text-neutral-100 mt-1">
+            <h3 className="text-xs sm:text-sm font-semibold text-neutral-900 dark:text-neutral-100 mt-1 leading-snug">
               Project Manager & Full Stack Developer
             </h3>
             <h4 className="text-[11px] sm:text-xs font-medium text-neutral-600 dark:text-neutral-400 mt-0.5">
@@ -34,7 +34,7 @@ export const TimelineCell = () => {
           </div>
         </div>
 
-        <div className="relative flex gap-3 sm:gap-4">
+        <div className="relative flex gap-2 sm:gap-4">
           <div className="relative flex flex-col items-center w-3 flex-shrink-0">
             <div className="w-2.5 h-2.5 rounded-full border-2 border-white dark:border-neutral-950 bg-neutral-900 dark:bg-neutral-100 z-10 mt-1" />
           </div>

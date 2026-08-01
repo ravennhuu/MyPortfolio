@@ -38,8 +38,8 @@ export const Badge = ({
       {...props}
     >
       {icon && (
-        <span className="inline-flex items-center justify-center max-w-0 opacity-0 -ml-1 group-hover:max-w-[20px] group-hover:opacity-100 group-hover:ml-0 group-hover:mr-1.5 transition-all duration-300 ease-out overflow-hidden shrink-0">
-          <span className="scale-50 group-hover:scale-100 transition-transform duration-300 ease-out flex items-center justify-center text-sm">
+        <span className="inline-flex items-center justify-center mr-1.5 shrink-0 sm:max-w-0 sm:opacity-0 sm:-ml-1 sm:mr-0 sm:group-hover:max-w-[20px] sm:group-hover:opacity-100 sm:group-hover:ml-0 sm:group-hover:mr-1.5 sm:transition-all sm:duration-300 sm:ease-out sm:overflow-hidden">
+          <span className="flex items-center justify-center text-sm sm:scale-50 sm:group-hover:scale-100 sm:transition-transform sm:duration-300 sm:ease-out">
             {icon}
           </span>
         </span>
