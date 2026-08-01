@@ -16,18 +16,22 @@ export default function Home() {
           {/* Row 1: Header (10 col) */}
           <ProfileHeaderCell />
 
-          {/* Left Column: About, Tech Stack & Projects stacked in rows (70% width) */}
           <div className="flex flex-col gap-4 md:col-span-7">
             <AboutCell />
-            <TechStackCell />
-            <ProjectsFeedCell />
           </div>
 
           {/* Right Column: Timeline & Socials (30% width) */}
           <div className="flex flex-col gap-4 md:col-span-3">
-            <TimelineCell />
             <LinksDeckCell />
           </div>
+
+          {/* Left Column: About, Tech Stack & Projects stacked in rows (70% width) */}
+          <div className="flex flex-col gap-4 md:col-span-10">
+            <TechStackCell />
+            <ProjectsFeedCell />
+            <TimelineCell />
+          </div>
+
         </div>
       </main>
 
@@ -38,7 +42,7 @@ export default function Home() {
         </div>
         <div className="flex items-center gap-1">
           <span>BUILT WITH</span>
-          <span className="text-neutral-800 dark:text-neutral-200">NEXT.JS 15</span>
+          <span className="text-neutral-800 dark:text-neutral-200">NEXT.JS</span>
           <span>&amp;</span>
           <span className="text-neutral-800 dark:text-neutral-200">TAILWIND CSS v4</span>
         </div>

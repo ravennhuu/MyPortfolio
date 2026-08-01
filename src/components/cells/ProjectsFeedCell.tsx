@@ -6,19 +6,10 @@ export const ProjectsFeedCell = () => {
     <Card colSpan="w-full" className="flex flex-col justify-between">
       <div>
         <span className="text-xs font-mono uppercase tracking-widest text-neutral-400 dark:text-neutral-500">
-          Featured Projects
+          Projects (WORK IN PROGRESS)
         </span>
       </div>
 
-      {/* ── PROJECTS LIST ────────────────────────────────────────
-          Each block below is one project card.
-          - Replace the title, description, tags, and links.
-          - Duplicate the entire <div className="group ..."> block
-            to add a new project.
-          - Remove the github/link <a> tags if not needed.
-          - The featured dot (●) appears next to the title when
-            you include it — remove the <span> if not needed.
-      ──────────────────────────────────────────────────────── */}
       <div className="mt-6 space-y-4 flex-grow">
 
         {/* ── PROJECT 1 ── */}

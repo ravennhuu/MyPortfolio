@@ -13,7 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Avryl Raven Alamo - Full Stack Mobile and Web Developer"
+  title: "Avryl Raven Alamo - Full Stack Web Developer",
+  icons: {
+    icon: "/Alamo_ProfileImg.jpg",
+    apple: "/Alamo_ProfileImg.jpg",
+  },
 };
 
 export default function RootLayout({

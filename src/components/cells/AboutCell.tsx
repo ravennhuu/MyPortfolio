@@ -18,7 +18,9 @@ export const AboutCell = () => {
       <div className="mt-4">
         <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">
           {/* TODO: write your biography here */}
-          Your biography goes here.
+          I'm a Full-Stack Web Developer. I build clean, responsive web applications and leverage AI to bring ideas to life.
+          <br /><br />
+          Right now, I’m driven by continuous growth, constantly exploring modern tools, refining my design process, and building practical applications that solve real-world problems.
         </p>
       </div>
     </Card>
