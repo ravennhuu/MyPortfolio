@@ -12,13 +12,13 @@ export const TechStackCell = () => {
         </span>
       </div>
 
-      <div className="flex flex-col mt-6 flex-grow">
+      <div className="flex flex-col mt-4 sm:mt-6 flex-grow">
 
-        <div className="flex flex-col py-3 border-b border-neutral-100 dark:border-neutral-900 space-y-2.5">
-          <h3 className="text-sm font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
+        <div className="flex flex-col py-3 border-b border-neutral-100 dark:border-neutral-900 space-y-2">
+          <h3 className="text-xs font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
             FRONTEND
           </h3>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1.5 sm:gap-2">
             {TECH_STACK_DATA.frontend.map((item) => (
               <Badge key={item.name} variant="outline" className="rounded-md" icon={item.icon}>
                 {item.name}
@@ -27,11 +27,11 @@ export const TechStackCell = () => {
           </div>
         </div>
 
-        <div className="flex flex-col py-3 border-b border-neutral-100 dark:border-neutral-900 space-y-2.5">
-          <h3 className="text-sm font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
+        <div className="flex flex-col py-3 border-b border-neutral-100 dark:border-neutral-900 space-y-2">
+          <h3 className="text-xs font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
             BACKEND
           </h3>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1.5 sm:gap-2">
             {TECH_STACK_DATA.backend.map((item) => (
               <Badge key={item.name} variant="outline" className="rounded-md" icon={item.icon}>
                 {item.name}
@@ -40,11 +40,11 @@ export const TechStackCell = () => {
           </div>
         </div>
 
-        <div className="flex flex-col py-3 space-y-2.5">
-          <h3 className="text-sm font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
+        <div className="flex flex-col py-3 space-y-2">
+          <h3 className="text-xs font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider font-mono">
             DEVELOPER TOOLS
           </h3>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1.5 sm:gap-2">
             {TECH_STACK_DATA.tools.map((item) => (
               <Badge key={item.name} variant="outline" className="rounded-md" icon={item.icon}>
                 {item.name}
