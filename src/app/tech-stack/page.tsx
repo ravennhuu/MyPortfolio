@@ -16,19 +16,16 @@ export default function TechStackPage() {
     {
       id: "frontend",
       title: "FRONTEND DEVELOPMENT",
-      description: "Libraries, frameworks, and tools used to craft fast, responsive, and engaging user interfaces.",
       items: TECH_STACK_DATA.frontend,
     },
     {
       id: "backend",
       title: "BACKEND DEVELOPMENT",
-      description: "Databases, server runtimes, APIs, and authentication mechanisms powering robust web applications.",
       items: TECH_STACK_DATA.backend,
     },
     {
       id: "tools",
       title: "DEVELOPER TOOLS & INFRASTRUCTURE",
-      description: "IDEs, version control platforms, cloud deployment hosting, and design software.",
       items: TECH_STACK_DATA.tools,
     },
   ];
@@ -50,15 +47,9 @@ export default function TechStackPage() {
       {/* Page Title & Intro */}
       <main className="flex-grow space-y-8 sm:space-y-10">
         <div className="space-y-3">
-          <div className="inline-block px-2.5 py-1 text-[10px] font-mono uppercase tracking-widest text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/50 rounded-full border border-emerald-200 dark:border-emerald-900/50">
-            Skills &amp; Technologies
-          </div>
           <h1 className="text-2xl sm:text-4xl font-bold tracking-tight text-neutral-900 dark:text-white">
-            Tech Stack Overview
+            Tech Stack
           </h1>
-          <p className="text-sm sm:text-base text-neutral-600 dark:text-neutral-400 max-w-2xl">
-            A complete collection of technologies, frameworks, databases, and developer utilities I work with to build high-quality software solutions.
-          </p>
         </div>
 
         {/* Categories Grid */}
@@ -69,9 +60,6 @@ export default function TechStackPage() {
                 <h2 className="text-xs font-mono uppercase tracking-widest text-neutral-400 dark:text-neutral-500 font-semibold mb-1">
                   {section.title}
                 </h2>
-                <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400">
-                  {section.description}
-                </p>
               </div>
 
               <div className="pt-2 flex flex-wrap gap-2 sm:gap-2.5">
